@@ -1,0 +1,33 @@
+{
+  "name": "genpark-jev-typed-state-action-router-mcp",
+  "version": "1.0.0",
+  "description": "Native Model Context Protocol (MCP) server providing typed state-action schema arbitration, deterministic action dispatch, and token-saving pre-escalation filters.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "jev",
+    "mcp-server",
+    "state-router",
+    "typesafe-ai",
+    "token-optimization",
+    "zero-dependency"
+  ],
+  "tools": [
+    {
+      "name": "validate_state_schema",
+      "description": "Verify state payload conformity against strict schema specifications."
+    },
+    {
+      "name": "route_action_payload",
+      "description": "Determine optimal dispatch pipeline based on state entropy and policy weights."
+    },
+    {
+      "name": "gatekeep_tool_execution",
+      "description": "Pre-flight safety inspection for external tool executions."
+    },
+    {
+      "name": "run_benchmark_state_routing",
+      "description": "Execute comprehensive state routing benchmark."
+    }
+  ]
+}
